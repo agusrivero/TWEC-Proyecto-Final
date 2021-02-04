@@ -1,0 +1,18 @@
+#form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sendModal{
+    background-color: #3E3E3E;
+}
+.brand-content-modal{
+    width: calc(100%*0.7) !important;
+    margin:auto;
+}
+.modal-dialog{
+    max-width: 1900px;
+}
+.form-modal{
+    max-width: 565px;
+}

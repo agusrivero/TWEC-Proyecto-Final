@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Trade+Winds');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+
+
+html{
+    scroll-behavior: smooth;
+}
+/****************************************
+            MULTIDISPOSITIVO
+****************************************/
+
+@media only screen and (max-width: 500px){
+    body{
+        padding: 0 !important;
+        /*padding-top: 70px !important;*/
+    }
+
+    .nav-link{
+        background: #3E3E3E;
+        color: #f9f9f9 !important;
+    }
+    #container{
+        display:none !important;
+    }
+    #header{
+        display: none;
+    }
+    .inner-section{
+        width: 100%;
+    }
+    .container-fluid{
+        width: 100% !important;
+    }
+}
+
+
+/****************************************
+                GENERAL
+****************************************/
+body{
+    background: #f9f9f9;
+}
+h1{
+    color: #f9f9f9;
+}
+#guitarras-body{
+    background: black;
+}
+#guitarristas-body{
+    background: black;
+}
+#guitarristas-body img{
+    position: absolute;
+    bottom: 300px;
+    left: 300px;
+}
+/****************************************
+                BRANDS
+****************************************/
+#brands{
+    margin-top: 50px;
+}
+.brand-logo{
+    width: 100%;
+    height: 50%;
+}
+.brand-logo:hover{
+    background: #3E3E3E;
+    border-radius: 4px;
+}
+.brand-footer{
+    background: #3E3E3E;
+    width: 100%;
+}
+
+/****************************************
+                FOOTER-FORM
+****************************************/
+.contact{
+    background-image: url("http://getwallpapers.com/wallpaper/full/b/6/9/1492920-download-free-fender-guitar-wallpaper-for-computer-1920x1200-hd-1080p.jpg");
+    background-size: 100%;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-content{
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 30px;
+    width: 500px;
+    text-align: center;
+}
+.contact-content input{
+    padding-left: 10px;
+    width: 89%;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 10px;
+    transition: background-color 1s;
+}
+.contact-content input:hover{
+    background-color: #3E3E3E;
+    color: #f9f9f9;
+    transition: background-color 1s;
+}
+.contact-content textarea{
+    width: 89%;
+    height: 80px;
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 10px;
+}
+
+.footer-content textarea{
+    width: 25%;
+
+}
+.contact-btn{
+    background-color: black;
+    color: #f9f9f9;
+    border-radius: 10px;
+}

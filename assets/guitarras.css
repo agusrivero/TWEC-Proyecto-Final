@@ -1,0 +1,43 @@
+#guitarras-body{
+    text-align: center;
+}
+.brand-content > p{
+    text-align: justify;
+    max-height: 25%;
+    overflow: scroll;
+}
+.brand-modal{
+    display: flex;
+    height: 1000px;
+    padding: 0.7rem;
+    margin: 50px;
+    text-align: center;
+    border: 1px solid black;
+    overflow: scroll;
+    background: #f9f9f9;
+    justify-content: center;
+    align-items: center;
+}
+.brand-video-container{
+    width: 100%;
+    margin: auto;
+}
+.brand-video{
+    width: 70%;
+    height: 400px;
+}
+.modal-list > p{
+    font-weight: bold;
+    text-align: left;
+}
+.modal-list > ul{
+    list-style: none;
+    text-align: left;
+}
+.image-modal{
+    transition: all 0.9s ease;
+    width: 70%;
+}
+.image-modal:hover{
+    transform: scale(1.5);
+}

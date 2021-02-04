@@ -1,0 +1,26 @@
+#mv-body{
+    background-image: url("http://getwallpapers.com/wallpaper/full/0/a/b/454525.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 90px;
+}
+.mv-content{
+    opacity: 0.9;
+    background-color: #f9f9f9;
+    padding: 0.7em;
+    margin: auto;
+    width: 600px;
+    height: 700px;
+    overflow: scroll;
+    border-radius: 10px;
+}
+.mv-footer{
+    text-align: center;
+}
+.mv-btn{
+    background-color: black;
+    border-radius: 10px;
+    color: #f9f9f9;
+    margin: 0.9em;
+    width: 100px;
+}
